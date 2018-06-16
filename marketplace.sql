@@ -89,4 +89,4 @@ CREATE TABLE "invoice" (
 
 CREATE INDEX "idx_invoice__contract" ON "invoice" ("contract");
 
-ALTER TABLE "invoice" ADD CONSTRAINT "fk_invoice__contract" FOREIGN KEY ("contract") REFERENCES "contract" ("number")
+ALTER TABLE "invoice" ADD CONSTRAINT "fk_invoice__contract" FOREIGN KEY ("contract") REFERENCES "contract" ("number");
